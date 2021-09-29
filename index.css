@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.offerhead{
+    background: linear-gradient(to right, red, green, yellow);
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 900;
+}
+
+.navbar{
+    background-color: rgb(110 206 206);
+    margin-top: 20px;
+    width: 25%;
+    margin-left: 30%;
+    /* text-align: center; */
+    /* align-items: center; */
+    border: 3px solid red;
+    border-radius: 5px;
+    padding-left: 300px;
+    
+}
+
+ul.bb{
+    list-style-position: inside
+}
+
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 167, 148);
+    border: 3px solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    background-color: rgb(81 250 255);
+    padding: 0 5px 0 5px;
+    width: 30%;
+    border: 2px solid green;
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+    height: 75px;
+    text-align: center;
+    
+}
+
+.offerhead1{
+    margin-top: 30px;
+    background: linear-gradient(45deg, red, yellow, red);
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+    font-weight: 900;
+    height: 40px;
+
+}
+
+.container1{
+    border: 2px solid green;
+    border-radius: 2px;
+    margin-top: 30px;
+    background-image: radial-gradient(blue 1%, blue 5%, green 99%);
+    height: 270px;
+    justify-content: center;
+    display: flex;
+}
+
+.box1{
+    background-color: yellow;
+    text-decoration-color: red;
+    text-decoration: underline;
+    border-radius: 8px;
+    line-height: 30px;
+    text-align: center;
+    height: 40%;
+    width: 18%;
+    border: 1px solid red;
+    margin: 80px 40px 30px 20px;
+}
+
+.heading2{
+    
+    text-align: center;
+    background-color: rgb(226, 55, 55);
+    height: 35px;
+    color: white;
+}
+
+.container3{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 30% 30% 29% 10%;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.child1{
+    background-color: rgb(56, 163, 56);
+    color: white;
+    height: 55px;
+    text-align: center;
+    height: 65px;
+    
+}
+
+.child2{
+    background-color: rgb(8, 82, 167);
+    color: white;
+    height: 65px;
+}
+
+.child3{
+    background-color: rgb(11, 9, 173);
+    color: white;
+    height: 65px;
+}
+
+.child4{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    grid-row: 1/8 ;
+    grid-column: 4/4;
+    font-size: 18px;
+    width: 88px;
+}
+
+.child5{
+    background-color: rgb(221, 156, 16);
+    color: white;
+    height: 130px;
+    grid-row: 3/8 ;
+    grid-column: 1/4;
+}
+
+.und{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.heading4{
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 15px;
+}
+
